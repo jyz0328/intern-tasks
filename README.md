@@ -6,9 +6,10 @@
 - 2.任务 2：修改 monitor1.0.py 以从 Google Cloud SQL 读取 historical_funding_rates.json，而不是从本地读取 - 已完成。
 - 3.任务 3：自动上传 monitor1.0.py 生成的 [nginx_results] 目录中的 [monitor_latest.csv] 文件到 Google Cloud - 已完成
 # insturction of code:
-- 0. before run code, remember to download [service-account-file.json] and put in same folder of codebase
-- 1. run [Data_2.0.py] to get [historical_funding_rates.json]  on local and google clouud sql
-- 2. run[ Monitor_2.0.py] to get [monitor_latest.csv ] on local and google clouud sql
+- 0. create a folder for this project, is this big folder, create [codebase] folder, [ArbFunding_Data] folder [nginx_results]folder and [Portfolio]folder
+- 0.5 download [service-account-file.json] [Data_2.0.py] [ Monitor_2.0.py] [Data_1.0.py] and [ Monitor_1.0.py] and put them into [codebase] folder
+- 1. run [Data_2.0.py] to get [historical_funding_rates.json]  on local [ArbFunding_Data] folder and google clouud sql
+- 2. run[ Monitor_2.0.py] to get [monitor_latest.csv ] on local[nginx_results]folder and google clouud sql
 - 3. [Data_1.0.py] and [ Monitor_1.0.py] are original code before I edit, u can also find them in https://drive.google.com/drive/folders/1o5rnYyq48qur7RJjP-Jn6Daza9CWmloU
 # detail information of google cloud sql
 - [historical_funding_rates.json] is upload to
