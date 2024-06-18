@@ -31,7 +31,8 @@
   db_pass = 'KKbhast0088!'
 
   db_name = 'Monitor_APR_Attribute'
-  
+# demo
 - here is what terminal looks like after running Data_2.0.py
   [Logo](https://github.com/jyz0328/intern-tasks/blob/main/data2running.png)
   ![Logo](./data2running.png)
+ here is what terminal looks like after running Monitor_2.0.py
