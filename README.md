@@ -9,7 +9,7 @@
 - 0. create a folder for this project, is this big folder, create [codebase] folder, [ArbFunding_Data] folder [nginx_results]folder and [Portfolio]folder
 - 0.5 download [service-account-file.json] [Data_2.0.py] [ Monitor_2.0.py] [Data_1.0.py] and [ Monitor_1.0.py] and put them into [codebase] folder
 - 1. run [Data_2.0.py] to get [historical_funding_rates.json]  on local [ArbFunding_Data] folder and google clouud sql
-- 2. run[ Monitor_2.0.py] to get [monitor_latest.csv ] on local[nginx_results]folder and google clouud sql. you can also get [monitor_latest_portfolio_calculation.csv] in [Portfolio] folder, and [] and [] in [] folder
+- 2. run[ Monitor_2.0.py] to get [monitor_latest.csv ] on local[nginx_results]folder and google clouud sql. you can also get [monitor_latest_portfolio_calculation.csv] in [Portfolio] folder, and [latest_fundingrates_UTC.csv] and [Monitor_APR_Score.csv] in [ArbFunding_Data] folder
 - 3. [Data_1.0.py] and [ Monitor_1.0.py] are original code before I edit, u can also find them in https://drive.google.com/drive/folders/1o5rnYyq48qur7RJjP-Jn6Daza9CWmloU
 # detail information of google cloud sql
 - [historical_funding_rates.json] is upload to
